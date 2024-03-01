@@ -1,4 +1,4 @@
-# AI-Driven Stock Insights: Analyzing Financial News with LLMs
+# [AI-Driven Stock Insights: Analyzing Financial News with LLMs](https://developers.lseg.com/en/article-catalog/article/ai-driven-stock-insights--analyzing-financial-news-with-llms)
 ## Introduction
 In the fast-paced world of finance, staying ahead means keeping informed of the latest news and market sentiments. With the vast amounts of data available, manual analysis is no longer viable. Here, we explore a breakthrough approach using Large Language Models (LLMs) like GPT for analyzing sentiments in financial news headlines, offering a glimpse into future investment strategies.
 
