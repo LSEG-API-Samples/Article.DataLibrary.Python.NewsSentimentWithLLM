@@ -1,6 +1,6 @@
 # [AI-Driven Stock Insights: Analyzing Financial News with LLMs](https://developers.lseg.com/en/article-catalog/article/ai-driven-stock-insights--analyzing-financial-news-with-llms)
 ## Introduction
-In the fast-paced world of finance, staying ahead means keeping informed of the latest news and market sentiments. With the vast amounts of data available, manual analysis is no longer viable. Here, we explore a breakthrough approach using Large Language Models (LLMs) like GPT for analyzing sentiments in financial news headlines, offering a glimpse into future investment strategies.
+In the fast-paced world of finance, staying ahead means keeping informed of the latest news and market sentiments. With the vast amounts of data available, manual analysis is no longer viable. Here, we explore a breakthrough approach using Large Language Models (LLMs) for analyzing sentiments in financial news headlines, offering a glimpse into future investment strategies.
 
 ## Understanding LLMs and Their Role in Finance
 LLMs are advanced AI tools capable of understanding and generating human-like text. By training on extensive datasets, they can interpret variation in language, making them perfect for analyzing the sentiment of financial news headlines. This method provides a more variation understanding of market sentiments, going beyond traditional analysis methods.
