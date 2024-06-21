@@ -11,23 +11,22 @@ Our reference study showcases LLMs' ability to categorize news headlines into po
 ## Pre-requisites:
 - LSEG Workspace application with access to The Data Library desktop session, or Data Platform session
    - App Key (as the Desktop session is used here)
-- Open AI API key (as GPT is used here)
 - Python 3.9 or above
 - Required libraries
    - refinitiv.data==1.5.1
+   - transformers==4.41.1
    - numpy==1.23.4
-   - openai==1.12.0
    - pandas==2.0.2
-   - plotly==5.18.0
-   - tqdm==4.66.2
+   - plotly==5.19.0
+   - tqdm==4.66.1
 
 ## Practical Application: Analyzing Sentiments with Python
 Actually, we provide Machine Readable News products with News Analytics (such as sentiment) over our Refinitiv Real-Time platform in realtime at very low latency - these products are essentially consumed by algorithmic applications as opposed to humans. Here we are trying to do a similar thing as simply as possible to illustrate the key elements without having to do this in a low latency environment but do this with the Data Library for Python instead.
 
-For of the LSEG's Data Library, integrating LLMs into your investment strategy can be straightforward. Python, a versatile programming language, serves as the bridge.
-To communicate with the LLM (GPT), we're using Chat Completions API from Open AI.
+For of the LSEG's Data Library, integrating LLMs into your investment strategy can be straightforward. Python, a versatile programming language, serves as the bridge with 'transformers' Python library by Hugging Face to perform sentiment analysis on news headlines using LLMs.
 
-![news-sentiment-flow](https://github.com/LSEG-API-Samples/Article.DataLibrary.Python.NewsSentimentWithLLM/assets/89068039/09ef85a7-f705-46fe-84ff-2b5ebd0824d2)
+![news-sentiment-2024](https://github.com/LSEG-API-Samples/Article.DataLibrary.Python.NewsSentimentWithLLM/assets/89068039/374836e8-c8bf-49f4-9d30-eeaea3cced42)
+
 
 ## The Future of Investment Strategies
 The integration of LLMs into financial analyses marks a significant shift in how investors approach market news. By offering a deeper, more nuanced understanding of market sentiments, LLMs pave the way for more sophisticated and informed investment strategies.
@@ -41,5 +40,5 @@ The fusion of LLMs and financial sentiment analysis represents a leap forward in
 
 ## References
 - Lopez-Lira, Alejandro and Tang, Yuehua, Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models (April 6, 2023). Available at SSRN: https://ssrn.com/abstract=4412788 or http://dx.doi.org/10.2139/ssrn.4412788
-- Open AI > Capabilities > Text generation models > Chat Completions API
-- Open AI > Capabilities > Text generation models > Models
+- [FinancialBERT for Sentiment Analysis](https://huggingface.co/ahmedrachid/FinancialBERT-Sentiment-Analysis)
+- [BART (large-sized model), fine-tuned on CNN Daily Mail](https://huggingface.co/facebook/bart-large-cnn)
